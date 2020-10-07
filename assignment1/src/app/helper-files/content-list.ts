@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 export class ContentList{
   /*random error*/
+  // tslint:disable-next-line:variable-name
   private _items: Content[];
 
 
