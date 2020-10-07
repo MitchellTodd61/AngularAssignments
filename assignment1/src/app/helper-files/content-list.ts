@@ -32,6 +32,6 @@ export class ContentList{
       '<h2> Type: ' + this._items[id].type + '</h2>' +
       '<h2> Tags: ' + this._items[id].tags + '</h2>' +
       '<p>' + this._items[id].body + '</p>' +
-      '<img src="' + this._items[id].imgUrl + '" alt="picture" width="250" height="250">';
+      '<img src="' + this._items[id].imgUrl + '" alt="picture" width="250" height="250"/>';
   }
 }
