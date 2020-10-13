@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ContentList} from '../helper-files/content-list';
+// import {ContentList} from '../helper-files/content-list';
 import {Content} from '../helper-files/content-interface';
 
 @Component({
@@ -8,9 +8,11 @@ import {Content} from '../helper-files/content-interface';
   styleUrls: ['./content-card.component.scss']
 })
 export class ContentCardComponent implements OnInit {
-  public listContent = new ContentList();
+  // public listContent = new ContentList();
   output: string;
-
+  //
+  //
+  // Not used items
   item1: Content = {
     id: 0,
     author: 'Mitchell Todd',
@@ -40,10 +42,10 @@ export class ContentCardComponent implements OnInit {
   };
 
   constructor() {
-    this.listContent.addItem(this.item1);
-    this.listContent.addItem(this.item2);
-    this.listContent.addItem(this.item3);
-    this.output = this.listContent.outputArray(0) + this.listContent.outputArray(1) + this.listContent.outputArray(2);
+    //  this.listContent.addItem(this.item1);
+    //  this.listContent.addItem(this.item2);
+   //   this.listContent.addItem(this.item3);
+    //  this.output = this.listContent.outputArray(0) + this.listContent.outputArray(1) + this.listContent.outputArray(2);
   }
   ngOnInit(): void {
   }
