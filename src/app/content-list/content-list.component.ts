@@ -1,14 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Content} from '../helper-files/content-interface';
-import {Pipe, PipeTransform} from '@angular/core';
-
-
-@Pipe({name: 'filterType'})
-export class FilterTypePipe implements PipeTransform{
-  transform(contentList: Content[], type: string): any{
-    return contentList.filter(t => t.type.includes(type));
-  }
-}
 
 @Component({
   selector: 'app-content-list',
@@ -21,23 +12,23 @@ export class FilterTypePipe implements PipeTransform{
 export class ContentListComponent implements OnInit {
   public contentList = new Array <Content>();
   public validity = '';
-
+  public title = '';
   outputHTML: string;
 
   // Item list below
   item1: Content = {
     id: 0,
     author: 'Me',
-    imgUrl: 'https://images.unsplash.com/photo-1539418561314-565804e349c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+    imgUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=687&q=80',
     title: 'Item 1',
-    type: 'Drink',
+    type: 'Food',
     body: 'one'
   };
 
   item2: Content = {
     id: 1,
     author: 'Jimmy',
-    imgUrl: 'https://images.unsplash.com/photo-1462953491269-9aff00919695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+    imgUrl: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
     title: 'Item 2',
     type: 'Food',
     body: 'two'
@@ -48,7 +39,7 @@ export class ContentListComponent implements OnInit {
     author: 'Another guy',
     imgUrl: 'https://images.unsplash.com/photo-1503066211613-c17ebc9daef0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
     title: 'Item 3',
-    type: 'Food',
+    type: 'Animal',
     body: 'three'
   };
 
@@ -78,14 +69,14 @@ export class ContentListComponent implements OnInit {
 
   // New func for validity of title
   public validTitle(title: string): any{
-    if (this.contentList.filter(t => t.title.toLowerCase().includes(this.title.toLowerCase())).length !== 0){
+    if (this.contentList.filter(t => t.title.toLowerCase().includes(title.toLowerCase())).length !== 0){
       this.validity = 'That is a valid and real title on the page!';
       console.log ('That is a valid title console log!');
     }else{
       this.validity = 'That is NOT a valid and real title on the page!';
       console.log ('That is NOT a valid title console log!');
     }
-    this.title = '';
+    title = '';
   }
 
   ngOnInit(): void {
