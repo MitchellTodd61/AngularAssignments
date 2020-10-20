@@ -2,8 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2049393-b9d1-4bf2-8e09-104af0cad5ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assignment1/helper-files/content-interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/helper-files/content-interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/content-card/content-card.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/content-card/content-card.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/content-card/content-card.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/content-card/content-card.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/helper-files/content-interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/app/helper-files/content-list.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-card/content-card.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-card/content-card.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-card/content-card.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-card/content-card.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-list/content-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-list/content-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-list/content-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/content-list/content-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/app/helper-files/content-interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2/tslint.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +104,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Mitchell\Documents\GitHub\AngularAssignment1\assignment1\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Program Files\PhpStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,10 +116,19 @@
       <option name="presentableId" value="Default" />
       <updated>1602094479420</updated>
       <workItem from="1602094480533" duration="135000" />
+      <workItem from="1603232182060" duration="25000" />
+      <workItem from="1603232209107" duration="60000" />
+      <workItem from="1603232329096" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603232205695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603232205695" />
   </component>
 </project>
