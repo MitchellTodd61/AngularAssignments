@@ -7,8 +7,15 @@ import {ContentListComponent} from './content-list/content-list.component';
 })
 export class FilterTypePipe implements PipeTransform {
 
-  transform(value: Content[], filterString: string): Content[] {
-    return value;
+  transform(contentList: Content[], type: string): any{
+    return contentList.filter(t => t.type.includes(type));
   }
+  // transform(value: Content[], filterString: string): Content[] {
+  //  return value;
+  // }
+  //
+  // transform(value: Content[], filterString: string): Content[] {
+  //  return value.type || 'Food';
+  // }
 
 }
