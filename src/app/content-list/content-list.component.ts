@@ -1,14 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Content} from '../helper-files/content-interface';
-import {Pipe, PipeTransform} from '@angular/core';
-
-
-@Pipe({name: 'filterType'})
-export class FilterTypePipe implements PipeTransform{
-  transform(contentList: Content[], type: string): any{
-    return contentList.filter(t => t.type.includes(type));
-  }
-}
 
 @Component({
   selector: 'app-content-list',
@@ -21,7 +12,7 @@ export class FilterTypePipe implements PipeTransform{
 export class ContentListComponent implements OnInit {
   public contentList = new Array <Content>();
   public validity = '';
-
+  public title = '';
   outputHTML: string;
 
   // Item list below
@@ -78,14 +69,14 @@ export class ContentListComponent implements OnInit {
 
   // New func for validity of title
   public validTitle(title: string): any{
-    if (this.contentList.filter(t => t.title.toLowerCase().includes(this.title.toLowerCase())).length !== 0){
+    if (this.contentList.filter(t => t.title.toLowerCase().includes(title.toLowerCase())).length !== 0){
       this.validity = 'That is a valid and real title on the page!';
       console.log ('That is a valid title console log!');
     }else{
       this.validity = 'That is NOT a valid and real title on the page!';
       console.log ('That is NOT a valid title console log!');
     }
-    this.title = '';
+    title = '';
   }
 
   ngOnInit(): void {

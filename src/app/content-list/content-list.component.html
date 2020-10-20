@@ -1,11 +1,11 @@
 <div class="textAndButton">
-  <input type="text" [(ngModel)]="title"/>
+  <input type="text" [(ngModel)] ="title"/>
   <button (click)="validTitle(title)" >Check Title!</button>
   <p>{{validity}}</p>
 </div>
 
 
-<h1>Flower</h1>
+<h1>Drink</h1>
 <div class="div1" *ngFor='let content of contentList | filterType: "Drink"; let last = last'
      [ngClass]="{'last-child': last}">
 

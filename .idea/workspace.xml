@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2d3e81-cdde-43a0-a72a-6573052bcc20" name="Default Changelist" comment="" />
+    <list default="true" id="f417e5ef-6a91-43bf-abf2-2d40ddc929c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/helper-files/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/helper-files/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/helper-files/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/helper-files/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/helper-files/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +35,10 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="ProjectId" id="1j9P6XYFqajs8xz7amnJVVVG8K7" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j9apf1dUk5BRJU5420PLidPPvD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,25 +46,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearningAngular-Assignment3" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/LearningAngular-Assignment3" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="ts.external.directory.path" value="C:\Users\Mitchell\Desktop\Assignment3\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Mitchell\Documents\GitHub\AngularProject\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Mitchell\Desktop\Assignment3\src\app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Mitchell\Desktop\Assignment3\src\app\helper-files" />
+      <recent name="C:\Users\Mitchell\Documents\GitHub\AngularProject\src\app\helper-files" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration name="E2E Tests (LearningAngular)" type="JavaScriptTestRunnerProtractor">
+    <configuration name="E2E Tests (AngularProject)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
       <protractor-options value="" />
@@ -61,13 +86,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b2d3e81-cdde-43a0-a72a-6573052bcc20" name="Default Changelist" comment="" />
-      <created>1603213159884</created>
+      <changelist id="f417e5ef-6a91-43bf-abf2-2d40ddc929c4" name="Default Changelist" comment="" />
+      <created>1603218945253</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603213159884</updated>
-      <workItem from="1603213160922" duration="2591000" />
-      <workItem from="1603216187656" duration="1600000" />
+      <updated>1603218945253</updated>
+      <workItem from="1603218946355" duration="3628000" />
     </task>
     <servers />
   </component>
@@ -75,13 +99,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603216531730">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603219355445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603216531730" />
-    <state x="486" y="362" key="FileChooserDialogImpl" timestamp="1603217067885">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603219355445" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603220857502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="486" y="362" key="FileChooserDialogImpl/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603217067885" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603220857502" />
   </component>
 </project>

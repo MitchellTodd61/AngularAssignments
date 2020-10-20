@@ -13,7 +13,7 @@ export class ContentCardComponent implements OnInit {
   output: string;
   //
   //
-  // Not used items
+  // Not used items...
   item1: Content = {
     id: 0,
     author: 'Mitchell Todd',
