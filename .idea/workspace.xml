@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b2049393-b9d1-4bf2-8e09-104af0cad5ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="f417e5ef-6a91-43bf-abf2-2d40ddc929c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/filter-type.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/filter-type.pipe.ts" afterDir="false" />
+>>>>>>> Assignment3
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1iYpf6nGysHQTdHfpYYFO3rIjZr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectId" id="1j9apf1dUk5BRJU5420PLidPPvD" />
+>>>>>>> Assignment3
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,16 +41,50 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+<<<<<<< HEAD
     <property name="ts.external.directory.path" value="D:\Program Files\PhpStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+=======
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="C:\Users\Mitchell\Documents\GitHub\AngularAssignments\node_modules\typescript\lib" />
+>>>>>>> Assignment3
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mitchell\Documents\GitHub\AngularProject\src\app\helper-files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (AngularProject)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2049393-b9d1-4bf2-8e09-104af0cad5ee" name="Default Changelist" comment="" />
-      <created>1602094479420</created>
+      <changelist id="f417e5ef-6a91-43bf-abf2-2d40ddc929c4" name="Default Changelist" comment="" />
+      <created>1603218945253</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1602094479420</updated>
       <workItem from="1602094480533" duration="135000" />
       <workItem from="1603232182060" duration="25000" />
@@ -46,6 +92,10 @@
       <workItem from="1603232329096" duration="105000" />
       <workItem from="1603232447113" duration="149000" />
       <workItem from="1603732742399" duration="76000" />
+=======
+      <updated>1603218945253</updated>
+      <workItem from="1603218946355" duration="3628000" />
+>>>>>>> Assignment3
     </task>
     <servers />
   </component>
@@ -53,9 +103,20 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603232205695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603232205695" />
+=======
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603219355445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603219355445" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603220857502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-3280.0.1920.1040/0.0.1920.1040/1920.-7.1920.1040/-1360.310.1360.728@0.0.1920.1040" timestamp="1603220857502" />
+>>>>>>> Assignment3
   </component>
 </project>
