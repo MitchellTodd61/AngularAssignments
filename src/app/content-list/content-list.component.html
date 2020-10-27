@@ -9,17 +9,16 @@
 <div class="div1" *ngFor='let content of contentList | filterType: "Animal"; let last = last'
      [ngClass]="{'last-child': last}">
 
-
   <ul title="Content Items">
 
-      <h1>{{content.title}}</h1>
-      <h2>{{content.author}}</h2>
-      <p>{{content.body}}</p>
-      <p>Tags: {{content.tags}}</p>
+    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+    <h2>{{content.author}}</h2>
+    <p>{{content.body}}</p>
+    Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
 
-      <p> Type: {{content.type}}</p>
-      <br>
-      <img src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+    <p> Type: {{content.type}}</p>
+    <br>
+    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
 
   </ul>
 
@@ -30,16 +29,15 @@
 <div class="div2" *ngFor='let content of contentList | filterType: "Food"; let last = last'
      [ngClass]="{'last-child': last}">
 
-
   <ul title="Content Items">
-      <h1>{{content.title}}</h1>
-      <h2>{{content.author}}</h2>
-      <p>{{content.body}}</p>
-      <p>Tags: {{content.tags}}</p>
+    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+    <h2>{{content.author}}</h2>
+    <p>{{content.body}}</p>
+    Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
 
-      <p> Type: {{content.type}}</p>
-      <br>
-      <img src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+    <p> Type: {{content.type}}</p>
+    <br>
+    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
 
   </ul>
 
@@ -51,18 +49,23 @@
 <div class="div3" *ngFor='let content of contentList | filterType: "Nature"; let last = last'
      [ngClass]="{'last-child': last}">
 
-
-  <ul title="Content Items">
-      <h1>{{content.title}}</h1>
-      <h2>{{content.author}}</h2>
-      <p>{{content.body}}</p>
-      <p>Tags: {{content.tags}}</p>
-
-      <p> Type: {{content.type}}</p>
-      <br>
-      <img src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
-  </ul>
+    <ul title="Content Items">
+    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+    <h2>{{content.author}}</h2>
+    <p>{{content.body}}</p>
+    Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
 
 
+    <p> Type: {{content.type}}</p>
+    <br>
+    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+    </ul>
 </div>
+
+
+
+<!-- Default Image -->
+<ng-template #imageDefault>
+  <img src="https://images.unsplash.com/photo-1561997968-aa846c2bf255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" width="250" height="250"/>
+</ng-template>
 

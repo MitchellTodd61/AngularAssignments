@@ -54,11 +54,11 @@ export class ContentListComponent implements OnInit {
 
   item5: Content = {
     id: 4,
-    author: 'Charles',
-    imgUrl: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+    author: 'Default',
+    imgUrl: '',
     title: 'Item 5',
     type: 'Nature',
-    body: 'five'
+    body: 'This has no img url'
   };
   constructor() {
     this.contentList.push(this.item1, this.item2, this.item3, this.item4, this.item5);
