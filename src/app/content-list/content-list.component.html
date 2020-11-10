@@ -6,7 +6,7 @@
 
 
 <h1>Animal</h1>
-<div class="div1" *ngFor='let content of contentList | filterType: "Animal"; let last = last'
+<div class="div1" *ngFor='let content of userContentList | filterType: "Animal"; let last = last'
      [ngClass]="{'last-child': last}">
 
   <ul title="Content Items">
@@ -26,7 +26,7 @@
 </div>
 
 <h1>Food</h1>
-<div class="div2" *ngFor='let content of contentList | filterType: "Food"; let last = last'
+<div class="div2" *ngFor='let content of userContentList | filterType: "Food"; let last = last'
      [ngClass]="{'last-child': last}">
 
   <ul title="Content Items">
@@ -46,7 +46,7 @@
 
 
 <h1>Nature</h1>
-<div class="div3" *ngFor='let content of contentList | filterType: "Nature"; let last = last'
+<div class="div3" *ngFor='let content of userContentList | filterType: "Nature"; let last = last'
      [ngClass]="{'last-child': last}">
 
     <ul title="Content Items">
@@ -62,7 +62,26 @@
     </ul>
 </div>
 
+<h1>Everything</h1>
+<div class="div1" *ngFor='let content of userContentList let last = last'
+     [ngClass]="{'last-child': last}">
 
+
+  <ul title="Content Items">
+
+    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+    <h2>{{content.author}}</h2>
+    <p>{{content.body}}</p>
+    Tags: <i appHoverStyle id='tags'>{{content.tags}}</i>
+
+    <p> Type: {{content.type}}</p>
+    <br>
+    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+
+  </ul>
+
+
+</div>
 
 <!-- Default Image -->
 <ng-template #imageDefault>

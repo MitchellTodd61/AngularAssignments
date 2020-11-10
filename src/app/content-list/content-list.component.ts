@@ -1,5 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import {Content} from '../helper-files/content-interface';
+import {Pipe, PipeTransform} from '@angular/core';
+import {CreateContentComponent} from '../create-content/create-content.component';
+
+@Pipe({name: 'filterType'})
+export class FilterTypePipe implements PipeTransform{
+  transform(contentList: Content[], type: string): any{
+    return contentList.filter(t => t.type.includes(type));
+  }
+}
 
 @Component({
   selector: 'app-content-list',
@@ -10,7 +19,8 @@ import {Content} from '../helper-files/content-interface';
 
 
 export class ContentListComponent implements OnInit {
-  public contentList = new Array <Content>();
+  public static contentList = new Array <Content>();
+  public userContentList = ContentListComponent.contentList;
   public validity = '';
   public title = '';
   outputHTML: string;
@@ -66,7 +76,7 @@ export class ContentListComponent implements OnInit {
     body: 'This has no img url'
   };
   constructor() {
-    this.contentList.push(this.item1, this.item2, this.item3, this.item4, this.item5);
+    ContentListComponent.contentList.push(this.item1, this.item2, this.item3, this.item4, this.item5);
   }
   public idPrint(content: Content): void{
     console.log(content.id);
@@ -74,7 +84,7 @@ export class ContentListComponent implements OnInit {
 
   // New func for validity of title
   public validTitle(title: string): any{
-    if (this.contentList.filter(t => t.title.toLowerCase().includes(title.toLowerCase())).length !== 0){
+    if (this.userContentList.filter(t => t.title.toLowerCase().includes(title.toLowerCase())).length !== 0){
       this.validity = 'That is a valid and real title on the page!';
       console.log ('That is a valid title console log!');
     }else{

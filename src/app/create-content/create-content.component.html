@@ -1,1 +1,46 @@
-<p>create-content works!</p>
+<h1>Create Content User Form</h1>
+
+
+<form (ngSubmit)="onSubmit()" [formGroup]="form" id="createContentForm">
+
+  <!-- Form elements -->
+    <div class="form-section">
+      <label for="contentId">Content id: </label>
+      <input type="number" id="contentId" formControlName="contentId" required>
+    </div>
+
+    <div class="form-section">
+      <label for="contentAuthor">Content author: </label>
+      <input type="text" id="contentAuthor" formControlName="contentAuthor" required>
+    </div>
+
+    <div class="form-section">
+      <label for="contentImgUrl">Content image: </label>
+      <input type="text" id="contentImgUrl" formControlName="contentImgUrl" required>
+    </div>
+
+    <div class="form-section">
+      <label for="contentTitle">Content title: </label>
+      <input type="text" id="contentTitle" formControlName="contentTitle" required>
+    </div>
+
+    <div class="form-section">
+      <label for="contentTags">Content tags: </label>
+      <input type="text" id="contentTags" formControlName="contentTags">
+    </div>
+
+    <div class="form-section">
+      <label for="contentType">Content type: </label>
+      <input type="text" id="contentType" formControlName="contentType" required>
+    </div>
+
+    <div class="form-section">
+      <label for="contentBody">Content Body: </label>
+      <input type="text" id="contentBody" formControlName="contentBody" required>
+    </div>
+
+
+  <!-- Submit button for form -->
+  <button type="submit">Submit</button>
+  <p class="error" *ngIf="invalidForm">This could not be added!!!</p>
+</form>
