@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02fd3146-2c4f-47b2-86e0-059d05416f0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.po.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/create-content/create-content.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create-content/create-content.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/hover-style.directive.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/hover-style.directive.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearningAngular-Assignment5" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -92,11 +64,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605027301396</updated>
-      <workItem from="1605027302837" duration="650000" />
+      <workItem from="1605027302837" duration="2321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="756" y="275" key="FileChooserDialogImpl" timestamp="1605028499794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="275" key="FileChooserDialogImpl/-3280.0.1920.1040/0.0.1920.1040/1920.-6.1920.1080/-1360.310.1360.768@0.0.1920.1040" timestamp="1605028499794" />
   </component>
 </project>

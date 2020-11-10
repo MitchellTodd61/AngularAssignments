@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {Content} from '../helper-files/content-interface';
 import {ContentListComponent} from '../content-list/content-list.component';
-import {error} from '@angular/compiler/src/util';
+// import {error} from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-create-content',
@@ -68,7 +68,9 @@ import {error} from '@angular/compiler/src/util';
       }
      });
         submitPromise.then(
+        // print success
         (success) => console.log(success),
+        // print fail
         (fail) => console.log(fail)
       );
   }
