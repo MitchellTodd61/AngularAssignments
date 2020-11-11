@@ -6,7 +6,7 @@ import {Content} from '../helper-files/content-interface';
 @Component({
   selector: 'app-content-card',
   templateUrl: './content-card.component.html',
-  styleUrls: ['./content-card.component.scss'],
+  styleUrls: ['./content-card.component.css'],
 })
 export class ContentCardComponent implements OnInit {
   // public listContent = new ContentList();
@@ -45,11 +45,10 @@ export class ContentCardComponent implements OnInit {
 
 
 constructor() {
- // this.contentList.addContent(this.item1);
-  //this.contentList.addContent(this.item2);
- // this.contentList.addContent(this.item3);
-  //this.outputHTML = this.contentList.arrayOutputById(0) + this.contentList.arrayOutputById(1) + this.contentList.arrayOutputById(2);
-
+  // this.contentList.addContent(this.item1);
+  // this.contentList.addContent(this.item2);
+  // this.contentList.addContent(this.item3);
+  // this.outputHTML = this.contentList.arrayOutputById(0) + this.contentList.arrayOutputById(1) + this.contentList.arrayOutputById(2);
   }
 
 ngOnInit(): void {
