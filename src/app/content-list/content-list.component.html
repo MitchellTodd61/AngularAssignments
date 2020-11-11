@@ -1,87 +1,81 @@
+<!-- BUTTON FOR CHECKING IF TITLE EXIST -->
 <div class="textAndButton">
   <input type="text" [(ngModel)] ="title"/>
   <button (click)="validTitle(title)" >Check Title!</button>
   <p>{{validity}}</p>
 </div>
 
-
+<!-- ANIMAL SECTION -->
 <h1>Animal</h1>
 <div class="div1" *ngFor='let content of userContentList | filterType: "Animal"; let last = last'
      [ngClass]="{'last-child': last}">
 
-  <ul title="Content Items">
+    <ul title="Content Items">
+      <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+      <h2>{{content.author}}</h2>
+      <p>{{content.body}}</p>
+      Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
 
-    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
-    <h2>{{content.author}}</h2>
-    <p>{{content.body}}</p>
-    Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
-
-    <p> Type: {{content.type}}</p>
-    <br>
-    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
-
-  </ul>
-
-
+      <p> Type: {{content.type}}</p>
+      <br>
+      <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+    </ul>
 </div>
 
+
+<!-- FOOD SECTION -->
 <h1>Food</h1>
 <div class="div2" *ngFor='let content of userContentList | filterType: "Food"; let last = last'
      [ngClass]="{'last-child': last}">
 
-  <ul title="Content Items">
-    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
-    <h2>{{content.author}}</h2>
-    <p>{{content.body}}</p>
-    Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
+    <ul title="Content Items">
+      <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+      <h2>{{content.author}}</h2>
+      <p>{{content.body}}</p>
+      Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
 
-    <p> Type: {{content.type}}</p>
-    <br>
-    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
-
-  </ul>
-
-
+      <p> Type: {{content.type}}</p>
+      <br>
+     <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+    </ul>
 </div>
 
 
+<!-- NATURE SECTION -->
 <h1>Nature</h1>
 <div class="div3" *ngFor='let content of userContentList | filterType: "Nature"; let last = last'
      [ngClass]="{'last-child': last}">
 
     <ul title="Content Items">
-    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
-    <h2>{{content.author}}</h2>
-    <p>{{content.body}}</p>
-    Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
+      <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+      <h2>{{content.author}}</h2>
+      <p>{{content.body}}</p>
+      Tags: <span *ngFor="let tag of content.tags"><i appHoverStyle id='tags'>{{tag}}, </i> </span>
 
-
-    <p> Type: {{content.type}}</p>
-    <br>
-    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+      <p> Type: {{content.type}}</p>
+      <br>
+      <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
     </ul>
 </div>
 
+
+<!-- ALL SECTION -->
 <h1>Everything</h1>
 <div class="div1" *ngFor='let content of userContentList let last = last'
      [ngClass]="{'last-child': last}">
 
-
   <ul title="Content Items">
+     <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
+     <h2>{{content.author}}</h2>
+     <p>{{content.body}}</p>
+      Tags: <i appHoverStyle id='tags'>{{content.tags}}</i>
 
-    <h1  class="itemTitle"  appHoverStyle id="title">{{content.title}}</h1>
-    <h2>{{content.author}}</h2>
-    <p>{{content.body}}</p>
-    Tags: <i appHoverStyle id='tags'>{{content.tags}}</i>
-
-    <p> Type: {{content.type}}</p>
-    <br>
-    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
-
+     <p> Type: {{content.type}}</p>
+     <br>
+     <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
   </ul>
-
-
 </div>
+
 
 <!-- Default Image -->
 <ng-template #imageDefault>

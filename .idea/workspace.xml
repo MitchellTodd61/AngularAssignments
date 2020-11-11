@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="02fd3146-2c4f-47b2-86e0-059d05416f0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/create-content/create-content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create-content/create-content.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/create-content/create-content.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create-content/create-content.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/filter-type.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/filter-type.pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/helper-files/content-interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/helper-files/content-interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/hover-style.directive.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/hover-style.directive.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/hover-style.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/hover-style.directive.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605027301396</updated>
       <workItem from="1605027302837" duration="2824000" />
-      <workItem from="1605118138731" duration="692000" />
+      <workItem from="1605118138731" duration="1290000" />
     </task>
     <servers />
   </component>

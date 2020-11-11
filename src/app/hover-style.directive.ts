@@ -8,12 +8,15 @@ export class HoverStyleDirective implements OnInit{
   constructor(private elm: ElementRef) {
   }
 
+
   @HostListener('mouseenter') onEnter(): void{
     this.styleElement();
 }
   @HostListener('mouseleave') onExit(): void{
     this.resetElement();
   }
+
+
   private styleElement(): void{
     switch (this.elm.nativeElement.id){
       case 'tags':
@@ -25,9 +28,8 @@ export class HoverStyleDirective implements OnInit{
       default:
         break;
     }
-
-
   }
+
   private resetElement(): void{
     switch (this.elm.nativeElement.id){
       case 'tags':

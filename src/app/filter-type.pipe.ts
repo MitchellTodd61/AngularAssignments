@@ -10,6 +10,9 @@ export class FilterTypePipe implements PipeTransform {
   transform(contentList: Content[], type: string): any{
     return contentList.filter(t => t.type.includes(type));
   }
+
+
+  // Unused code (DOES NOT WORK IN PROGRAM)
   // transform(value: Content[], filterString: string): Content[] {
   //  return value;
   // }
