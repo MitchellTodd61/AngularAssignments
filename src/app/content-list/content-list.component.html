@@ -6,6 +6,7 @@
 </div>
 
 <!-- ANIMAL SECTION -->
+<div class="itemBox">
 <h1>Animal</h1>
 <div class="div1" *ngFor='let content of userContentList | filterType: "Animal"; let last = last'
      [ngClass]="{'last-child': last}">
@@ -75,7 +76,7 @@
      <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
   </ul>
 </div>
-
+</div>
 
 <!-- Default Image -->
 <ng-template #imageDefault>

@@ -1,6 +1,8 @@
-<h1>Create Content User Form</h1>
-<h2>Enter some user info below</h2>
+<div class="userEntry">
+<h1>Create-Content User Form</h1>
+<h2>Enter some info below</h2>
 
+<div class="form">
 <form (ngSubmit)="onSubmit()" [formGroup]="form" id="createContentForm">
 
   <!-- Form elements -->
@@ -41,6 +43,10 @@
 
 
   <!-- Submit button for form -->
+  <div class="submit">
   <button type="submit">Submit</button>
   <p class="error" *ngIf="invalidForm">This could not be added!!!</p>
+  </div>
 </form>
+</div>
+</div>
