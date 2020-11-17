@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Content} from '../helper-files/content-interface';
+import {ContentService} from '../services/content.service';
 
 @Component({
   selector: 'app-content-list',
@@ -68,6 +69,9 @@ export class ContentListComponent implements OnInit {
   // constructor() {
   //   this.contentList.push(this.item1, this.item2, this.item3, this.item4, this.item5);
   // }
+  //
+  constructor(private contentService: ContentService) {
+  }
   public idPrint(content: Content): void{
     console.log(content.id);
   }
@@ -85,6 +89,7 @@ export class ContentListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.contentService.getContentObs().subscribe(content => this.contentList = content);
   }
 
 }
