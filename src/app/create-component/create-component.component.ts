@@ -2,14 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {Content} from '../helper-files/content-interface';
 import {ContentListComponent} from '../content-list/content-list.component';
-import {error} from '@angular/compiler/src/util';
 import {ContentService} from '../services/content.service';
 
 
 @Component({
   selector: 'app-create-component',
   templateUrl: './create-component.component.html',
-  styleUrls: ['./create-component.component.css']
+  styleUrls: ['./create-component.component.scss']
 })
 export class CreateComponentComponent implements OnInit {
   public id: number;
