@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+// import { Component, OnInit } from '@angular/core';
+import {Component, Injectable, OnInit} from '@angular/core';
 import {Content} from '../helper-files/content-interface';
 import {ContentService} from '../services/content.service';
 import {MessageService} from '../services/message.service';
@@ -8,9 +9,9 @@ import {MessageService} from '../services/message.service';
   templateUrl: './content-list.component.html',
   styleUrls: ['./content-list.component.css']
 })
-
-
-
+@Injectable({
+  providedIn: 'root'
+})
 export class ContentListComponent implements OnInit {
   public contentList = new Array <Content>();
   public validity = '';
@@ -21,6 +22,7 @@ export class ContentListComponent implements OnInit {
   // item1: Content = {
   //   id: 0,
   //   author: 'Me',
+  // tslint:disable-next-line:max-line-length
   //   imgUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=687&q=80',
   //   title: 'Item 1',
   //   type: 'Food',
@@ -31,6 +33,7 @@ export class ContentListComponent implements OnInit {
   // item2: Content = {
   //   id: 1,
   //   author: 'Jimmy',
+  // tslint:disable-next-line:max-line-length
   //   imgUrl: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
   //   title: 'Item 2',
   //   type: 'Food',
@@ -41,6 +44,7 @@ export class ContentListComponent implements OnInit {
   // item3: Content = {
   //   id: 2,
   //   author: 'Another guy',
+  // tslint:disable-next-line:max-line-length
   //   imgUrl: 'https://images.unsplash.com/photo-1503066211613-c17ebc9daef0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
   //   title: 'Item 3',
   //   type: 'Animal',
@@ -51,6 +55,7 @@ export class ContentListComponent implements OnInit {
   // item4: Content = {
   //   id: 3,
   //   author: 'Joe man',
+  // tslint:disable-next-line:max-line-length
   //   imgUrl: 'https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80',
   //   title: 'Item 4',
   //   type: 'Nature',
@@ -92,6 +97,5 @@ export class ContentListComponent implements OnInit {
   ngOnInit(): void {
     this.contentService.getContentObs().subscribe(content => this.contentList = content);
   }
-
 }
 

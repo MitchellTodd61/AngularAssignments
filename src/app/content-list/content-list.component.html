@@ -62,7 +62,24 @@
     </ul>
 </div>
 
+<h1>New Stuff</h1>
+<div class="div1" *ngFor='let content of contentList let last = last'
+     [ngClass]="{'last-child': last}">
 
+
+  <ul title="Content Items">
+
+    <h1  class="itemTitle"  id="title">{{content.title}}</h1>
+    <h2>{{content.author}}</h2>
+    <p>{{content.body}}</p>
+    Tags: <i>{{content.tags}}</i>
+
+    <p> Type: {{content.type}}</p>
+    <br>
+    <img *ngIf="content.imgUrl !== ''; else imageDefault" src={{content.imgUrl}} width="250" height="250" (click)="this.idPrint(content)"/>
+
+  </ul>
+</div>
 
 <!-- Default Image -->
 <ng-template #imageDefault>
