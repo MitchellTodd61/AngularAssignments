@@ -28,7 +28,7 @@ export class CreateStartComponentComponent {
 
 }
 
-//previous content
+// previous content
 @Component({
   selector: 'app-create-component',
   templateUrl: './create-component.component.html',
