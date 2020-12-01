@@ -1,10 +1,34 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {Content} from '../helper-files/content-interface';
 import {ContentListComponent} from '../content-list/content-list.component';
 import {ContentService} from '../services/content.service';
+// import {MatFormFieldControl, MatFormFieldModule} from '@angular/material/form-field';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 
+// new for style assignment 8
+@Component({
+  selector: 'app-create-start-component',
+  templateUrl: './create-start-component.component.html',
+})
+export class CreateStartComponentComponent {
+  // animal: string;
+  // name: string;
+  constructor(public dialog: MatDialog) {}
 
+  openDialog(): void {
+    const dialogRef = this.dialog.open(CreateComponentComponent, {
+      width: '500px',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
+
+}
+
+//previous content
 @Component({
   selector: 'app-create-component',
   templateUrl: './create-component.component.html',
@@ -20,7 +44,11 @@ export class CreateComponentComponent implements OnInit {
   public body: string;
   public form: FormGroup;
   public invalidForm: boolean;
-  constructor(private contentService: ContentService, private contentListComp: ContentListComponent) {
+  constructor(public dialogRef: MatDialogRef<CreateComponentComponent>,
+              @Inject(MAT_DIALOG_DATA) public data: Component,
+              // Private variables
+              private contentService: ContentService,
+              private contentListComp: ContentListComponent, public dialog: MatDialog) {
     this.invalidForm = false;
   }
 
