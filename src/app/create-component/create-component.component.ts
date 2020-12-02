@@ -15,7 +15,6 @@ export class CreateStartComponentComponent {
   // animal: string;
   // name: string;
   constructor(public dialog: MatDialog) {}
-
   openDialog(): void {
     const dialogRef = this.dialog.open(CreateComponentComponent, {
       width: '500px',
