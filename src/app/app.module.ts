@@ -17,6 +17,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule, MatFormFieldControl} from '@angular/material/form-field';
 import {MatDialogModule} from '@angular/material/dialog';
+import { ContentDetailComponent } from './content-detail/content-detail.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     CreateComponentComponent,
     MessagesComponent,
     CreateComponentComponent,
-    CreateStartComponentComponent
+    CreateStartComponentComponent,
+    ContentDetailComponent
   ],
   imports: [
     FormsModule,
